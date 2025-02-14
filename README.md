@@ -11,6 +11,6 @@ provide useful information about each movie, such as its name, price, descriptio
 Authors
 -------
 **Jerry Wang** (GTID: 903883389)\
-**Joshua Joseph** (GTID: )\
+**Joshua Joseph** (GTID: 903962022)\
 **Aryan Patel** (GTID: 903973313)\
 **Kush Sharma** (GTID: 903665187)
