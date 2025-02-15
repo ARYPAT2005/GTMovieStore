@@ -16,5 +16,5 @@ Authors
 **Aryan Patel** (GTID: 903973313)\
 **Kush Sharma** (GTID: 903665187)
 
--------
+
 Link: https://k3sharma.pythonanywhere.com/
