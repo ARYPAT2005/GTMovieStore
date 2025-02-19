@@ -2,6 +2,25 @@
 {% block title %}GT Movies Store{% endblock %}
 
 {% block content %}
+    <form method="GET" action="{% url 'search' %}" onsubmit="return validateSearch()">
+        <div class="input-group mb-3">
+            <input class="form-control" type="search" name="search-input" id="search-input" placeholder="Search" aria-label="Search" aria-describedby="search-addon"/>
+            <button type="submit" class="btn btn-primary">
+                Submit
+            </button>
+        </div>
+    </form>
+    <script>
+        function validateSearch() {
+            const searchInput = document.getElementById('search-input').value;
+            if (searchInput.trim() === '') {
+                alert('Please enter a search term.');
+                return false;
+            }
+            return true;
+        }
+    </script>
+
     {% if movies %}
         <div id="popularMoviesCarousel" class="carousel slide" data-bs-ride="carousel" style="padding-top: 10px; margin: 0 auto; max-width: 1400px">
             <div class="carousel-inner">
